@@ -13,7 +13,7 @@ app.get('/twitter', (req, res) => {
 })
 
 app.get('/ayush', (req,res)=>{
-    res.send('<h1> Ayush Kumar </h1> <h2> SDE at Brane Group </h2> <p> Loves to code and build things </p>')
+    res.send('<h1> Ayush Kumar </h1> <h2> SDE at Brane </h2> <p> Loves to code and build things </p>')
 })
 
 app.listen(port, () => {
